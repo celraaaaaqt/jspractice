@@ -26,6 +26,8 @@ let totalsss = pointss / scoress;
 
 console.log(`${totalsss}`);
 
+let age = 19;
+
 
 
 
