@@ -19,4 +19,13 @@ let totalss = pointss * scoress;
 
 console.log(`${totalss}`);
 
+let pointsss = 100;
+let scoresss = 30;
+
+let totalsss = pointss / scoress;
+
+console.log(`${totalsss}`);
+
+
+
 
