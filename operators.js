@@ -28,6 +28,9 @@ console.log(`${totalsss}`);
 
 let age = 19;
 
+let binary = 1;
+
+
 
 
 
