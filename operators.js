@@ -3,4 +3,20 @@ let score = 20;
 
 let total = points + score;
 
-console.log(`${total});
+console.log(`${total}`);
+
+let p = 100;
+let s = 30;
+
+let t = p - s;
+
+console.log(`${t}`);
+
+let pointss = 100;
+let scoress = 30;
+
+let totalss = pointss * scoress;
+
+console.log(`${totalss}`);
+
+
