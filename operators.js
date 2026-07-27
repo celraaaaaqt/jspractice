@@ -30,6 +30,7 @@ let age = 19;
 
 let binary = 1;
 
+let quantity = 1000;
 
 
 
