@@ -32,6 +32,8 @@ let binary = 1;
 
 let quantity = 1000;
 
+let products = 500;
+
 
 
 
