@@ -70,3 +70,4 @@ function countVowels(word){
 }
 
 console.log(countVowels("Hello"));
+console.log(countVowels("Hi"));
