@@ -30,9 +30,23 @@ console.log(`${result}`);
 
 
 
-function isEven(number){
+/* function isEven(number){
 
        return number % 2 === 0;
 }
 console.log(isEven(5));
-console.log(isEven(8));
+console.log(isEven(8)); */
+
+function findLargest(num1, num2, num3) {
+    if (num1 >= num2 && num1 >= num3){
+        return `${num1} is the largest`;
+    } else if (num2 >= num1 && num2 >= num3) {
+        return `${num2} is the largest`;
+    } else if (num3 >= num1 &&  num3 >= num2) {
+       return `${num3} is the largest`;
+    } else {
+        return`none of these is largest`;
+    }
+}
+
+console.log(findLargest(16, 87, 91));
