@@ -8,3 +8,5 @@ console.log(`I am ${age} years old.`);
 console.log(`My favorite subject is ${favSubject}`);
 console.log(`with the exam score of ${points}`);
 
+const equal = 5;
+

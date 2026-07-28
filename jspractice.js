@@ -19,3 +19,5 @@ console.log(`My name is ${name}`);
 console.log(`And I am ${age} years old`);
 console.log(`With the score of ${score}`);
 console.log(`Status: ${status}`);
+
+let fun;
