@@ -37,7 +37,7 @@ console.log(`${result}`);
 console.log(isEven(5));
 console.log(isEven(8)); */
 
-function findLargest(num1, num2, num3) {
+/* function findLargest(num1, num2, num3) {
     if (num1 >= num2 && num1 >= num3){
         return `${num1} is the largest`;
     } else if (num2 >= num1 && num2 >= num3) {
@@ -49,4 +49,24 @@ function findLargest(num1, num2, num3) {
     }
 }
 
-console.log(findLargest(16, 87, 91));
+console.log(findLargest(16, 87, 91)); */
+
+function countVowels(word){
+    let count = 0;
+
+    for (let i = 1; i <= count; i++) {
+        
+        if (word === 'a' ||
+            word === 'b' ||
+            word === 'c' ||
+            word === 'd' ||
+            word === 'e' 
+
+        ) {
+        return `${count} vowels`;
+        }
+        count++;
+    }
+}
+
+console.log(countVowels("Hello"));
