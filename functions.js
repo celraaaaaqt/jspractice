@@ -71,4 +71,5 @@ function countVowels(word){
 
 console.log(countVowels("Hello"));
 console.log(countVowels("Hi"));
-console.log(countVowels("Ang lala"));
+console.log(countVowels("Ang  mmjj"));
+console.log(countVowels("ljjh"));
