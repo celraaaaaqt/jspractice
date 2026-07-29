@@ -52,24 +52,16 @@ console.log(isEven(8)); */
 console.log(findLargest(16, 87, 91)); */
 
 function countVowels(word){
+    
     let count = 0;
-
-    for (let i = 1; i <= count; i++) {
+    word = word.toLowerCase();
+    for (let i = 0; i < word.length; i++) {
         
-        if (word === 'a' ||
-            word === 'b' ||
-            word === 'c' ||
-            word === 'd' ||
-            word === 'e' 
-
-        ) {
-        return `${count} vowels`;
+        if ("aeiou".includes(word[i])) {
+             count++;
         }
-        count++;
     }
+     return `${count} vowels`;
 }
 
-console.log(countVowels("Hello"));
-console.log(countVowels("Hi"));
-console.log(countVowels("Ang  mmjj"));
-console.log(countVowels("ljjh"));
+console.log(countVowels("Celraaaaa"));
