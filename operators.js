@@ -38,5 +38,6 @@ let products = 800;
 let hash = 78;
 let bah = 100;
 let test = 99;
+let score = 100;
 
 
