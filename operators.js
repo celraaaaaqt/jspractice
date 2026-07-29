@@ -35,6 +35,7 @@ let quantity = 1000;
 let products = 500;
 let products = 500;
 let products = 800;
+let hash = 78;
 
 
 
