@@ -27,11 +27,15 @@
     /* console.log(`${totalsss}`); */
 
 
-function multiply(n1, n2) {
+function divide(n1, n2) {
 
-     return n1 * n2;
+     if (n1 === 0 || n2 === 0) {
+        return `Cannot divide by zero`;
+     } else {
+        return n1 / n2;
+     }
 }
-console.log(multiply(10,10));
+console.log(divide(10, 0));
 
 
 
