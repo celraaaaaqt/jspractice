@@ -51,7 +51,7 @@ console.log(isEven(8)); */
 
 console.log(findLargest(16, 87, 91)); */
 
-function countVowels(word){
+/* function countVowels(word){
     
     let count = 0;
     word = word.toLowerCase();
@@ -64,4 +64,17 @@ function countVowels(word){
      return `${count} vowels`;
 }
 
+console.log(countVowels("Celraaaaa")); */
+
+function countVowels(word) {
+    let count = 0;
+ word = word.toLowerCase();
+
+    for (i = 0; i <= word.length; i++) {
+        if ("aeiou".includes(word[i])){
+            count++;
+        }
+    }
+    return `${count} vowels`;
+}
 console.log(countVowels("Celraaaaa"));
