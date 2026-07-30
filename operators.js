@@ -37,8 +37,8 @@
 }
 console.log(divide(10, 0)); */
 
-function oddEven(num){
-
+/* function oddEven(num){ */
+/* 
     if (num % 2 === 0) {
         return `${num} is even`;
     } else {
@@ -47,6 +47,19 @@ function oddEven(num){
 
 }
 console.log(oddEven(8));
-console.log(oddEven(7));
+console.log(oddEven(7)); */
 
+/* function largestNum(n1, n2, n3){
+
+    if (n1 >= n2 && n1 >= n3){
+        return `${n1} is the largest`;
+
+    } else if (n2 >= n1 && n2 >= n3){
+        return `${n2} is the largest`;
+        
+    }  else if (n3 >= n1 && n3 >= n2) {
+        return `${n3} is the largest`;
+    }
+}
+console.log(largestNum(1, 2, 3)); */
 
