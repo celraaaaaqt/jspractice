@@ -27,7 +27,7 @@
     /* console.log(`${totalsss}`); */
 
 
-function divide(n1, n2) {
+/* function divide(n1, n2) {
 
      if (n1 === 0 || n2 === 0) {
         return `Cannot divide by zero`;
@@ -35,8 +35,18 @@ function divide(n1, n2) {
         return n1 / n2;
      }
 }
-console.log(divide(10, 0));
+console.log(divide(10, 0)); */
 
+function oddEven(num){
 
+    if (num % 2 === 0) {
+        return `${num} is even`;
+    } else {
+        return `${num} is odd`;
+    }
+
+}
+console.log(oddEven(8));
+console.log(oddEven(7));
 
 
