@@ -1,43 +1,38 @@
-let points = 19;
-let score = 20;
+    /* let points = 19; */
+    /* let score = 20; */
 
-let total = points + score;
+    /* let total = points + score; */
 
-console.log(`${total}`);
+    /* console.log(`${total}`); */
 
-let p = 100;
-let s = 30;
+    /* let p = 100; */
+    /* let s = 30; */
 
-let t = p - s;
+    /* let t = p - s; */
 
-console.log(`${t}`);
+    /* console.log(`${t}`); */
 
-let pointss = 100;
-let scoress = 30;
+    /* let pointss = 100; */
+    /* let scoress = 30; */
 
-let totalss = pointss * scoress;
+    /* let totalss = pointss * scoress; */
 
-console.log(`${totalss}`);
+    /* console.log(`${totalss}`); */
 
-let pointsss = 100;
-let scoresss = 30;
+    /* let pointsss = 100; */
+    /* let scoresss = 30; */
 
-let totalsss = pointss / scoress;
+    /* let totalsss = pointss / scoress; */
 
-console.log(`${totalsss}`);
+    /* console.log(`${totalsss}`); */
 
-let age = 19;
 
-let binary = 1;
+function multiply(n1, n2) {
 
-let quantity = 1000;
+     return n1 * n2;
+}
+console.log(multiply(10,10));
 
-let products = 500;
-let products = 500;
-let products = 800;
-let hash = 78;
-let bah = 100;
-let test = 99;
-let score = 100;
+
 
 
