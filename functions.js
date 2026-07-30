@@ -70,7 +70,7 @@ function countVowels(word) {
     let count = 0;
  word = word.toLowerCase();
 
-    for (i = 0; i <= word.length; i++) {
+    for (let i = 0; i < word.length; i++) {
         if ("aeiou".includes(word[i])){
             count++;
         }
