@@ -89,7 +89,7 @@ console.log(countVowels("Celraaaaa")); */
     }
     console.log(reversedWord("hello")); */
 
-function isPalindrome(word) {
+/* function isPalindrome(word) {
 let reversed = "";
 
 for (let i = word.length - 1; i >= 0; i--){
@@ -98,4 +98,18 @@ reversed += word[i];
 return reversed === word;
 
 }
-console.log(isPalindrome("arcel pogi"));
+console.log(isPalindrome("arcel pogi")); */
+
+/* function factorial(num){ */
+/* 
+    let result = 1;
+  
+    for (let i = 1; i <= num; i++){
+         result = result * i;
+         
+        
+    }
+    return result;
+}
+console.log(factorial(5));
+ */
