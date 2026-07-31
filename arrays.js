@@ -78,8 +78,14 @@ for (i = 0; i < animals.length; i++){
     console.log(animals[i]);
 } */
 
-let fruits = ["Apple", "Banana", "Orange"];
+/* let fruits = ["Apple", "Banana", "Orange"];
 
 for (let i = 0; i < fruits.length; i++) {
 console.log(`Fruit ${i + 1}: ${fruits[i]}`);
+} */
+
+let scores = [95, 88, 76, 91, 84];
+
+for (let i = 0; i < scores.length; i++) {
+    console.log(`Student ${i + 1} scored ${scores[i]}`);
 }
