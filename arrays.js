@@ -40,7 +40,7 @@ let task = todo.length;
 
 console.log(`You have ${task} tasks.`); */
 
-let scores = [ 85, 90, 78];
+/* let scores = [ 85, 90, 78];
 scores.pop();
 scores.push(95);
 
@@ -48,4 +48,11 @@ scores[1] = 92;
 
 
 console.log(scores);
-console.log(scores.length);
+console.log(scores.length); */
+
+let colors = ["Red", "Blue"];
+
+colors.push("Green");
+colors.unshift("Yellow");
+
+console.log(colors);
