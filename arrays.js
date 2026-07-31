@@ -101,9 +101,23 @@ for (let i = 0; i < scores.length; i++) {
 }
 console.log(`There are ${count} passing scores.`); */
 
-let prices = [100, 250, 75, 300];
+/* let prices = [100, 250, 75, 300];
 let total = 0;
 for (i = 0; i < prices.length; i++){
 total = total + prices[i];
 }
-console.log(`Total Price: ${total}`);
+console.log(`Total Price: ${total}`); */
+
+/* let scores = [95, 88, 76, 91, 84];
+let total = 0;
+let count = 0;
+
+for (i = 0; i < scores.length; i++){
+
+total = total + scores[i];
+    if (scores[i] >= 90) {
+    count++;
+    }
+}
+ console.log(`Total Score: ${total}`);
+ console.log(`Passing students: ${count}`); */
