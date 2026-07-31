@@ -235,3 +235,44 @@ for (let score of scores){
     }
 }
 console.log(passers); */
+
+/*Your task
+
+Using only one for...of loop, determine:
+
+Highest number
+Lowest number
+Total of all numbers
+Count of numbers greater than 50
+Expected Output
+Highest: 89
+Lowest: 5
+Total: 281
+Greater than 50: 2 */
+
+let numbers = [12, 45, 7, 89, 34, 89, 5];
+let highest = numbers[0];
+let lowest = numbers[0];
+let total = 0;
+let greater = 0;
+
+for (let number of numbers) {
+    if (number >= highest) {
+        highest = number;
+    }
+
+    if (number <= lowest) {
+        lowest = number;
+    }
+
+    total = total + number;
+
+    if (number > 50) {
+        greater++;
+    }
+
+}
+console.log(`Highest number: ${highest}`);
+console.log(`Lowest number: ${lowest}`);
+console.log(`Total: ${total}`);
+console.log(`Greater than 50: ${greater}`);
