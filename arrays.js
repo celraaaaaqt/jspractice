@@ -84,8 +84,19 @@ for (let i = 0; i < fruits.length; i++) {
 console.log(`Fruit ${i + 1}: ${fruits[i]}`);
 } */
 
-let scores = [95, 88, 76, 91, 84];
+/* let scores = [95, 88, 76, 91, 84];
 
 for (let i = 0; i < scores.length; i++) {
     console.log(`Student ${i + 1} scored ${scores[i]}`);
+} */
+
+let scores = [95, 88, 76, 91, 84];
+   let count = 0;
+
+for (let i = 0; i < scores.length; i++) {
+    
+    if (scores[i] >= 90) {
+        count++;
+    } 
 }
+console.log(`There are ${count} passing scores.`);
