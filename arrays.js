@@ -152,7 +152,7 @@ for (let i = 0; i < fruits.length; i++) {
         console.log(`Fruit orange was not found!`);
     } */
 
-        let fruits = ["Apple", "Banana", "Orange", "Mango"];
+        /* let fruits = ["Apple", "Banana", "Orange", "Mango"];
         let position = -1;
 
         for (let i = 0; i < fruits.length; i++) {
@@ -163,4 +163,75 @@ for (let i = 0; i < fruits.length; i++) {
         break;
 }
         }
-        console.log(`Orange is at index ${position}`);
+        console.log(`Orange is at index ${position}`); */
+
+  /* Your task
+
+Using one for loop, determine:
+
+The highest number.
+The lowest number.
+The total of all numbers.
+How many numbers are greater than 50.
+
+Expected Output
+Highest: 89
+Lowest: 5
+Total: 281
+Numbers greater than 50: 2 */
+
+
+        /* let numbers = [12, 45, 7, 89, 34, 89, 5];
+        let highest = numbers[0];
+        let lowest = numbers[0];
+        let total = 0;
+        let count = 0;
+
+        for (let i = 0; i < numbers.length; i++){
+
+            if (numbers[i] >= highest) {
+            highest = numbers[i];
+            } 
+            
+            if (numbers[i] <= lowest) {
+            lowest = numbers[i];
+            } 
+
+            total = total + numbers[i];
+
+            if (numbers[i] > 50) {
+                count++;
+            }
+        }
+        console.log(`Highest: ${highest}`);
+        console.log(`Lowest: ${lowest}`);
+        console.log(`Total: ${total}`);
+        console.log(`Numbers greater than 50: ${count}`);
+ */
+
+            /* let colors = ["Red", "Green", "Blue", "Yellow"];
+
+            for (let color of colors) {
+                console.log(`Color: ${color}`);
+
+            } */
+
+/* let prices = [100, 250, 75, 300];
+let total = 0;
+
+for(let price of prices){
+    total =  total + price;
+
+}
+console.log(total); */
+
+/* let scores = [95, 88, 76, 91, 84];
+let passers = 0;
+
+for (let score of scores){
+
+    if (score >= 90){
+     passers++;
+    }
+}
+console.log(passers); */
