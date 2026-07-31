@@ -121,3 +121,46 @@ total = total + scores[i];
 }
  console.log(`Total Score: ${total}`);
  console.log(`Passing students: ${count}`); */
+
+ // --------- ADVANCED array methods ---------
+
+/*  let scores = [95, 88, 76, 98, 84];
+
+ let lowest = scores[0];
+
+for (let i = 1; i < scores.length; i++) {
+
+    if(scores[i] <= lowest) {
+        lowest = scores[i];
+    }
+}
+console.log(`The lowest is: ${lowest}`); */
+
+/* let fruits = ["Apple", "Banana", "Orange", "Mango"];
+let found = false;
+
+for (let i = 0; i < fruits.length; i++) {
+    
+   if (fruits[i] === "Orange"){
+  found = true;
+   }
+    
+}
+ if (found) {
+        console.log(`Fruit orange was found!`);
+    } else {
+        console.log(`Fruit orange was not found!`);
+    } */
+
+        let fruits = ["Apple", "Banana", "Orange", "Mango"];
+        let position = -1;
+
+        for (let i = 0; i < fruits.length; i++) {
+
+            if (fruits[i] === "Orange")
+{
+        position = i;
+        break;
+}
+        }
+        console.log(`Orange is at index ${position}`);
