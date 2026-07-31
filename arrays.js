@@ -66,8 +66,20 @@ console.log(movies);
 
 console.log(`There are ${movies.length} movies in the list.`); */
 
-let cities = ["Manila", "Cebu", "Davao", "Baguio"];
+/* let cities = ["Manila", "Cebu", "Davao", "Baguio"];
 
 console.log(`First city: ${cities[0]}`);
 console.log(`Last city: ${cities[cities.length - 1]}`);
-console.log(`Total Cities: ${cities.length}`);
+console.log(`Total Cities: ${cities.length}`); */
+
+/* let animals = ["Dog", "Cat", "Rabbit", "Bird"];
+
+for (i = 0; i < animals.length; i++){
+    console.log(animals[i]);
+} */
+
+let fruits = ["Apple", "Banana", "Orange"];
+
+for (let i = 0; i < fruits.length; i++) {
+console.log(`Fruit ${i + 1}: ${fruits[i]}`);
+}
