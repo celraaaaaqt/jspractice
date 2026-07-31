@@ -50,9 +50,24 @@ scores[1] = 92;
 console.log(scores);
 console.log(scores.length); */
 
-let colors = ["Red", "Blue"];
+/* let colors = ["Red", "Blue"];
 
 colors.push("Green");
 colors.unshift("Yellow");
 
-console.log(colors);
+console.log(colors); */
+
+/* let movies = ["Avengers", "Batman", "Frozen"];
+
+movies[0] = "Spider-Man";
+movies.push("Inception");
+
+console.log(movies);
+
+console.log(`There are ${movies.length} movies in the list.`); */
+
+let cities = ["Manila", "Cebu", "Davao", "Baguio"];
+
+console.log(`First city: ${cities[0]}`);
+console.log(`Last city: ${cities[cities.length - 1]}`);
+console.log(`Total Cities: ${cities.length}`);
