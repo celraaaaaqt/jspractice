@@ -90,7 +90,7 @@ for (let i = 0; i < scores.length; i++) {
     console.log(`Student ${i + 1} scored ${scores[i]}`);
 } */
 
-let scores = [95, 88, 76, 91, 84];
+/* let scores = [95, 88, 76, 91, 84];
    let count = 0;
 
 for (let i = 0; i < scores.length; i++) {
@@ -99,4 +99,11 @@ for (let i = 0; i < scores.length; i++) {
         count++;
     } 
 }
-console.log(`There are ${count} passing scores.`);
+console.log(`There are ${count} passing scores.`); */
+
+let prices = [100, 250, 75, 300];
+let total = 0;
+for (i = 0; i < prices.length; i++){
+total = total + prices[i];
+}
+console.log(`Total Price: ${total}`);
