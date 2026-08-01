@@ -159,3 +159,7 @@ const total3 = products.reduce( (total, sum) => {
     return total + sum.price;
 }, 0);
 console.log(total3);
+
+// ? some() method
+
+// todo sum() exercises
