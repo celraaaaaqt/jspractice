@@ -40,7 +40,7 @@ while(k <= 20){
             i++;
         } */
 
-            let i = 1;
+            /* let i = 1;
 
             while(i <= 30){
                 if(i % 15 === 0){  
@@ -53,8 +53,80 @@ while(k <= 20){
                      console.log(i);
                 }
                 i++;
-            }
+            } */
             
+ /* const colors = ["Red", "Green", "Blue", "Yellow"];
 
+    colors.forEach( color => {
+    console.log(`${color}`);
+    });
+
+    const cities = ["Manila", "Cebu", "Davao"];
+
+    cities.forEach ( (city, index) => {
+    console.log(`${index}. ${city}`);
+    });
     
+    const prices = [250, 300, 150, 500];
+    let total = 0;
+
+    prices.forEach ( price => {
+    total += price;    
+    });
+    console.log(`Total: ${total}`);
     
+    const names = [
+        "Alex",
+        "John",
+        "Anna",
+        "Michael",
+        "Andrew"
+    ];
+
+    names.forEach(name => {
+        if (name.startsWith("A")) {
+            console.log(`${name}`);
+        }
+    }); */
+
+  /* const names = [
+        "Alex",
+        "John",
+        "Anna",
+        "Michael",
+        "Andrew"
+    ];
+
+    let count = 0;
+
+    names.forEach( name => {
+        if (name.startsWith("A")) {
+            count++;
+        }
+    });
+    console.log(`There are ${count} names that start with A.`);
+ */
+    
+    const names = [
+        "Alex",
+        "John",
+        "Anna",
+        "Michael",
+        "Andrew"
+    ];
+    let count = 0;
+    let longest = "";
+
+    names.forEach ( name => {
+        console.log(`${name} ${name.length}`);
+        
+        if (name.length > 4) {
+            count++;
+        }
+
+        if (name.length > longest.length) {
+            longest = name;
+        }
+    });
+    console.log(`There are ${count} names with more than 4 letters.`);
+    console.log(`Longest name: ${longest}`);
