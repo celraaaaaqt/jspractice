@@ -93,7 +93,7 @@ const numberss = [3, 5, 6, 8, 9, 10, 12, 15];
 const divisableByThree = numberss.filter( number => number % 3 === 0 );
 console.log(divisableByThree); */
 
-// ? find() searches through an array and returns the first element that matches a condition.
+/* // ? find() searches through an array and returns the first element that matches a condition.
 
 // todo exercises for find ()
 
@@ -128,4 +128,34 @@ const products = [
 ];
 
 const findMouse = products.find( search => search.name === "Mouse" );
-console.log(findMouse);
+console.log(findMouse); */
+
+// ? reduce() method takes many values and reduces them to one value.
+
+// todo reeduce() exercises
+
+const numbers = [5, 10, 15, 20];
+
+const total = numbers.reduce( (index, number) => {
+    return index + number;
+});
+console.log(total);
+
+
+const prices = [100, 250, 75, 400];
+
+const total2 = prices.reduce( (index, sum) => {
+    return index + sum;
+}, 0);
+console.log(total2);
+
+const products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 800 },
+    { name: "Keyboard", price: 1500 }
+];
+
+const total3 = products.reduce( (index, sum) => {
+    return index + sum.price;
+}, 0);
+console.log(total3);
