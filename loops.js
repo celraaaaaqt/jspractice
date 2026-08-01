@@ -107,7 +107,7 @@ while(k <= 20){
     console.log(`There are ${count} names that start with A.`);
  */
     
-    const names = [
+/*     const names = [
         "Alex",
         "John",
         "Anna",
@@ -129,4 +129,6 @@ while(k <= 20){
         }
     });
     console.log(`There are ${count} names with more than 4 letters.`);
-    console.log(`Longest name: ${longest}`);
+    console.log(`Longest name: ${longest}`); */
+
+    
