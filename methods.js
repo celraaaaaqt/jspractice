@@ -163,3 +163,5 @@ console.log(total3);
 // ? some() method
 
 // todo sum() exercises
+
+const scores = [90, 80, 85, 91, 100];
