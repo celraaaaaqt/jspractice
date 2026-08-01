@@ -136,16 +136,16 @@ console.log(findMouse); */
 
 const numbers = [5, 10, 15, 20];
 
-const total = numbers.reduce( (index, number) => {
-    return index + number;
-});
+const total = numbers.reduce( (total, number) => {
+    return total + number;
+}, 0);
 console.log(total);
 
 
 const prices = [100, 250, 75, 400];
 
-const total2 = prices.reduce( (index, sum) => {
-    return index + sum;
+const total2 = prices.reduce( (total, sum) => {
+    return total + sum;
 }, 0);
 console.log(total2);
 
@@ -155,7 +155,7 @@ const products = [
     { name: "Keyboard", price: 1500 }
 ];
 
-const total3 = products.reduce( (index, sum) => {
-    return index + sum.price;
+const total3 = products.reduce( (total, sum) => {
+    return total + sum.price;
 }, 0);
 console.log(total3);
