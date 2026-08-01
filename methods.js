@@ -45,7 +45,7 @@ console.log(newProducts); */
 
 // todo FILTER() METHOD exercises
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+/* const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 
 const evenNumbers = numbers.filter( evenNumber => evenNumber % 2 === 0);
 console.log(evenNumbers);
@@ -91,4 +91,41 @@ console.log(startsWithA);
 const numberss = [3, 5, 6, 8, 9, 10, 12, 15];
 
 const divisableByThree = numberss.filter( number => number % 3 === 0 );
-console.log(divisableByThree);
+console.log(divisableByThree); */
+
+// ? find() searches through an array and returns the first element that matches a condition.
+
+// todo exercises for find ()
+
+const numbers = [10, 20, 30, 40, 50];
+
+const greaterThan25 = numbers.find( number => number > 25 );
+console.log(greaterThan25);
+
+const names = [
+    "John",
+    "Anna",
+    "Michael",
+    "Andrew"
+];
+
+const starsWithA = names.find( name => name.startsWith("A"));
+console.log(starsWithA);
+
+const users = [
+    { id: 1, name: "John" },
+    { id: 2, name: "Anna" },
+    { id: 3, name: "Mike" }
+];
+
+const iD = users.find( id => id.id === 3 );
+console.log(iD);
+
+const products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 800 },
+    { name: "Keyboard", price: 1500 }
+];
+
+const findMouse = products.find( search => search.name === "Mouse" );
+console.log(findMouse);
