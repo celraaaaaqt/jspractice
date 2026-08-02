@@ -160,12 +160,12 @@ const total3 = products.reduce( (total, sum) => {
 }, 0);
 console.log(total3); */
 
-// ? some() method
+// ? some() method checks whether at least one element matches a condition.
 
 // todo some() exercises
 
 
-const numbers = [2, 4, 6, 7];
+/* const numbers = [2, 4, 6, 7];
 
 const isOdd = numbers.some( odd => odd % 2 === 1);
 console.log(isOdd);
@@ -191,4 +191,37 @@ console.log(lessThan1000);
 const scores = [75, 80, 90, 95];
 
 const isLessThan70 = scores.some( score => score < 70);
-console.log(isLessThan70);
+console.log(isLessThan70); */
+
+// ? every() method checks whether all elements match a condition.
+
+// todo every() exercises
+
+const numbers = [2, 4, 6, 8];
+
+
+const isEven = numbers.every( number => number % 2 === 0 );
+console.log(isEven);
+
+const names = [
+    "Alex",
+    "Anna",
+    "Andrew"
+];
+
+const isStartsA = names.every( name => name.startsWith("A") );
+console.log(isStartsA);
+
+const products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 800 },
+    { name: "Keyboard", price: 1500 }
+];
+
+const moreThan500 = products.every( product => product.price > 500 );
+console.log(moreThan500);
+
+const ages = [18, 21, 17, 25];
+
+const ageEighteen = ages.every( age => age >= 18 );
+console.log(ageEighteen);
