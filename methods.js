@@ -294,3 +294,17 @@ const colors = [
 if (!usernames.includes("Mike")) {
     console.log("User not found.");
 }
+
+const students = [
+   "Arcel",
+   "Earl",
+   "Clar,
+   "Jam",
+   "Chard
+   ]
+
+if(!students.includes("Arcel"){
+   console.log("Busy");
+} else if (students.includes("Arcel"){
+   console.log("Free");
+}
