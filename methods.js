@@ -197,7 +197,7 @@ console.log(isLessThan70); */
 
 // todo every() exercises
 
-const numbers = [2, 4, 6, 8];
+/* const numbers = [2, 4, 6, 8];
 
 
 const isEven = numbers.every( number => number % 2 === 0 );
@@ -224,4 +224,39 @@ console.log(moreThan500);
 const ages = [18, 21, 17, 25];
 
 const ageEighteen = ages.every( age => age >= 18 );
-console.log(ageEighteen);
+console.log(ageEighteen); */
+
+// ? sort 
+
+// ? Unlike map() and filter(), sort() modifies the original array.
+
+// todo sort() exercises
+
+const numbers = [7, 2, 10, 5, 1];
+
+numbers.sort( (a, b) => a - b);
+console.log(numbers);
+
+const numbers2 = [7, 2, 10, 5, 1];
+
+numbers2.sort( (a, b) => b - a);
+console.log(numbers2);
+
+const names = [
+    "John",
+    "Anna",
+    "Mike",
+    "Ben"
+];
+
+names.sort();
+console.log(names);
+
+const products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 800 },
+    { name: "Keyboard", price: 1500 }
+];
+
+products.sort( (a, b) => a.price - b.price);
+console.log(products);
