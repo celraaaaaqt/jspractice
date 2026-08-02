@@ -232,7 +232,7 @@ console.log(ageEighteen); */
 
 // todo sort() exercises
 
-const numbers = [7, 2, 10, 5, 1];
+/* const numbers = [7, 2, 10, 5, 1];
 
 numbers.sort( (a, b) => a - b);
 console.log(numbers);
@@ -259,4 +259,38 @@ const products = [
 ];
 
 products.sort( (a, b) => a.price - b.price);
-console.log(products);
+console.log(products); */
+
+// ? includes() method checks if an array contains a certain element. It returns true if the element is found, and false otherwise.
+
+// todo includes() exercises
+
+const fruits = [
+    "Apple",
+    "Banana",
+    "Orange"
+];
+console.log(fruits.includes("Banana"));
+
+const numbers = [5, 10, 15, 20];
+
+console.log(numbers.includes(8));
+
+const colors = [
+    "Red",
+    "Green",
+    "Blue"
+];
+ if (colors.includes("Green")) {
+        console.log("Green Found! ");
+ }
+
+    const usernames = [
+    "Alex",
+    "John",
+    "Anna"
+];
+
+if (!usernames.includes("Mike")) {
+    console.log("User not found.");
+}
