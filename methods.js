@@ -134,7 +134,7 @@ console.log(findMouse); */
 
 // todo reeduce() exercises
 
-const numbers = [5, 10, 15, 20];
+/* const numbers = [5, 10, 15, 20];
 
 const total = numbers.reduce( (total, number) => {
     return total + number;
@@ -158,10 +158,37 @@ const products = [
 const total3 = products.reduce( (total, sum) => {
     return total + sum.price;
 }, 0);
-console.log(total3);
+console.log(total3); */
 
 // ? some() method
 
-// todo sum() exercises
+// todo some() exercises
 
-const scores = [90, 80, 85, 91, 100];
+
+const numbers = [2, 4, 6, 7];
+
+const isOdd = numbers.some( odd => odd % 2 === 1);
+console.log(isOdd);
+
+const names = [
+    "John",
+    "Anna",
+    "Mike"
+];
+
+const startsWithA = names.some( name => name.startsWith("A") );
+console.log(startsWithA);
+
+const products = [
+    { name: "Laptop", price: 50000 },
+    { name: "Mouse", price: 800 },
+    { name: "Keyboard", price: 1500 }
+];
+
+const lessThan1000 = products.some( product => product.price < 1000 );
+console.log(lessThan1000);
+
+const scores = [75, 80, 90, 95];
+
+const isLessThan70 = scores.some( score => score < 70);
+console.log(isLessThan70);
