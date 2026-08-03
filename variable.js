@@ -10,3 +10,12 @@ console.log(`with the exam score of ${points}`);
 
 const equal = 5;
 
+let crushName = "tasha";
+let crushAge = 19;
+let crushFavSubject = "tourism";
+let crushPoints = 1000000;
+
+console.log(`Her name is ${crushName}`);
+console.log(`She is ${crushAge} years old.`);
+console.log(`Her favorite subject is ${crushFavSubject}`);
+console.log(`with the exam score of ${crushPoints}`);
