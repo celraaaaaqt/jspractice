@@ -309,5 +309,7 @@ if(!students.includes("Arcel")){
    console.log("Busy");
 } else if (students.includes("Arcel")){
    console.log("Free");
+} else {
+    console.log("Not Found");
 }
 
