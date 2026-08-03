@@ -63,3 +63,10 @@ console.log(oddEven(7)); */
 }
 console.log(largestNum(1, 2, 3)); */
 
+let age = 18;
+
+if (age >= 18) {
+    console.log("You are eligible to vote.");
+} else if (age < 18) {
+    console.log("You are not eligible to vote.");
+}
