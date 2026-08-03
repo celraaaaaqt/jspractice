@@ -297,7 +297,7 @@ if (!usernames.includes("Mike")) {
 } */
 
     
-const students = [
+/* const students = [
    "Arcel",
    "Earl",
    "Clar",
@@ -313,3 +313,5 @@ if(!students.includes("Arcel")){
     console.log("Not Found");
 }
 
+
+ */
