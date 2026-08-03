@@ -52,3 +52,13 @@ console.log(reaction);
 
 const keypoints = kinausapKoSyaTonight.keypoints;
 console.log(keypoints); 
+
+const sheRepliedToMe = {
+  body: "kinikilig",
+  expression: "smiling"
+}
+
+const body2 = sheRepliedToMe.body;
+console.log(body2);
+const expression2 = sheRepliedToMe.expression;
+console.log(expression2);
