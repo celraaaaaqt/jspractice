@@ -315,3 +315,5 @@ if(!students.includes("Arcel")){
 
 
  */
+
+let age = 18;
