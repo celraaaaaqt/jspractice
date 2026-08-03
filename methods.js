@@ -265,7 +265,7 @@ console.log(products); */
 
 // todo includes() exercises
 
-const fruits = [
+/* const fruits = [
     "Apple",
     "Banana",
     "Orange"
@@ -293,4 +293,6 @@ const colors = [
 
 if (!usernames.includes("Mike")) {
     console.log("User not found.");
-}
+} */
+
+    
