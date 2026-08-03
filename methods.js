@@ -297,7 +297,6 @@ if (!usernames.includes("Mike")) {
 } */
 
     
-
 const students = [
    "Arcel",
    "Earl",
@@ -306,9 +305,9 @@ const students = [
    "Chard"
    ]
 
-if(!students.includes("Arcel"){
+if(!students.includes("Arcel")){
    console.log("Busy");
-} else if (students.includes("Arcel"){
+} else if (students.includes("Arcel")){
    console.log("Free");
 }
 
