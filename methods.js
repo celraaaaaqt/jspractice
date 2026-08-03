@@ -317,3 +317,5 @@ if(!students.includes("Arcel")){
  */
 
 let age = 18;
+let isEligible = age >= 18 ? "You are eligible to vote." : "You are not eligible to vote.";
+console.log(isEligible);
