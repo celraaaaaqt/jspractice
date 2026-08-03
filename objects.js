@@ -28,3 +28,27 @@ console.log(herAge);
 
 const herFavSubject = crushInfos.herFavSubject;
 console.log(herFavSubject);
+
+
+const kinausapKoSyaTonight = {
+  body: "kinikilig",
+  expression: "smiling",
+  mood: "masaya",
+  reaction: "blushing",
+  keypoints: "stay as i am currently."
+}
+
+const body = kinausapKoSyaTonight.body;
+console.log(body);
+
+const expression = kinausapKoSyaTonight.expression;
+console.log(expression);  
+
+const mood = kinausapKoSyaTonight.mood;
+console.log(mood);
+
+const reaction = kinausapKoSyaTonight.reaction;
+console.log(reaction);
+
+const keypoints = kinausapKoSyaTonight.keypoints;
+console.log(keypoints); 
