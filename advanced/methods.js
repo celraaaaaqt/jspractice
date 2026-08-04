@@ -365,7 +365,7 @@ console.log(slicedNames); */
 
 // todo splice() exercises
 
-    const numbers = [10, 20, 30, 40, 50];
+    /* const numbers = [10, 20, 30, 40, 50];
 
     const removedNumbers = numbers.splice(1, 2);
     console.log(numbers);
@@ -385,9 +385,9 @@ console.log(slicedNames); */
     ];
 
 
-   /*  Start at index 1
+  Start at index 1
 Remove 1 item (Banana)
-Insert "Mango" */
+Insert "Mango" 
     const modifiedFruit = fruits.splice(1, 1, "Mango");
     console.log(fruits);
 
@@ -400,5 +400,6 @@ Insert "Mango" */
 
     const modifiedNames = names.splice(1, 2, "Ben", "Chris");
     console.log(names);
+     */
 
     
