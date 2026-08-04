@@ -319,7 +319,7 @@ if(!students.includes("Arcel")){
 // ? slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included). The original array will not be modified.
 
 // todo slice() exercises
-const numbers = [10, 20, 30, 40, 50];
+/* const numbers = [10, 20, 30, 40, 50];
 
 const result = numbers.slice(1, 3);
 console.log(result);
@@ -355,4 +355,50 @@ const names = [
 ];
 
 const slicedNames = names.slice(1, 4);
-console.log(slicedNames);
+console.log(slicedNames); */
+
+// ? If slice() is the photocopier 📄,
+
+// ? then splice() is the scissors ✂️.
+// ? It cuts, adds, or replaces elements in the original array.
+// ? Unlike slice(), splice() modifies the original array
+
+// todo splice() exercises
+
+    const numbers = [10, 20, 30, 40, 50];
+
+    const removedNumbers = numbers.splice(1, 2);
+    console.log(numbers);
+
+    const colors = [
+        "Red",
+        "Blue"
+    ];
+
+    const addedColors = colors.splice(1, 0, "Green");
+    console.log(colors);
+
+    const fruits = [
+        "Apple",
+        "Banana",
+        "Orange"
+    ];
+
+
+   /*  Start at index 1
+Remove 1 item (Banana)
+Insert "Mango" */
+    const modifiedFruit = fruits.splice(1, 1, "Mango");
+    console.log(fruits);
+
+    const names = [
+        "Alex",
+        "John",
+        "Anna",
+        "Mike"
+    ];
+
+    const modifiedNames = names.splice(1, 2, "Ben", "Chris");
+    console.log(names);
+
+    
