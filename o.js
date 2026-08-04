@@ -49,7 +49,7 @@ console.log(bankAccount.balance); */
 // ? This is one of the most important JavaScript topics because it's how you'll work with 
 // ? data from databases and APIs.
 
-const students = [
+/* const students = [
     { name: "Alex", age: 20 },
     { name: "Anna", age: 19 },
     { name: "John", age: 21 }
@@ -65,5 +65,22 @@ const s2 = students.map(student => student.name);
 console.log(s2);
 
 const s3 =students.reduce((total, student) => total + student.age, 0);
-console.log(s3);
+console.log(s3); */
 
+/* students.filter(student => student.age >= 20);
+
+students.find(student => student.name === "Anna");
+
+students.map(student => student.name);
+
+students.reduce((total, student) => total + student.age, 0);
+ */
+const students = [
+    { name: "Alex", age: 20 },
+    { name: "Anna", age: 19 },
+    { name: "John", age: 21 }
+];
+
+students.forEach(student => { 
+    console.log(student.name);
+});
