@@ -1,5 +1,5 @@
-const book = {
-  title: "Harry Potter",
+/* const book = { */
+/*   title: "Harry Potter",
   author: "J.K. Rowling",
   pages: 500
 };
@@ -63,5 +63,37 @@ console.log(body2);
 const expression2 = sheRepliedToMe.expression;
 console.log(expression2);
 
-console.log("I am happy to talk to her tonight.");
+console.log("I am happy to talk to her tonight."); */
 
+
+const cars = {
+  brand: "Toyota",
+  model: "Vios",
+  year: 2023
+};
+
+console.log(cars.brand);
+
+const person = {
+  name: "Anna",
+  age: 19
+}
+
+person.age = 20;
+console.log(person.age);
+
+const phone = {
+  brand: "Samsung"
+}
+
+phone.color = "Black";
+console.log(phone);
+
+const laptop = {
+    brand: "Acer",
+    model: "Aspire Lite 15",
+    price: 32000
+};
+
+delete laptop.price;
+console.log(laptop);
