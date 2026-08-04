@@ -5,7 +5,7 @@
 // ? What is this?
 // Inside an object method, this refers to the current object.
 
-const dog = {
+/* const dog = {
     name: "Buddy",
 
     bark() {
@@ -43,4 +43,27 @@ const bankAccount = {
     }
 }
 console.log(bankAccount.deposit(500));
-console.log(bankAccount.balance);
+console.log(bankAccount.balance); */
+
+// ? array of objects 
+// ? This is one of the most important JavaScript topics because it's how you'll work with 
+// ? data from databases and APIs.
+
+const students = [
+    { name: "Alex", age: 20 },
+    { name: "Anna", age: 19 },
+    { name: "John", age: 21 }
+];
+
+const s = students.filter(student => student.age >= 20);
+console.log(s);
+
+const s1 = students.find(student => student.name === "Anna");
+console.log(s1);
+
+const s2 = students.map(student => student.name);
+console.log(s2);
+
+const s3 =students.reduce((total, student) => total + student.age, 0);
+console.log(s3);
+
