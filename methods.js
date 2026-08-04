@@ -316,6 +316,43 @@ if(!students.includes("Arcel")){
 
  */
 
-let age = 18;
-let isEligible = age >= 18 ? "You are eligible to vote." : "You are not eligible to vote.";
-console.log(isEligible);
+// ? slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included). The original array will not be modified.
+
+// todo slice() exercises
+const numbers = [10, 20, 30, 40, 50];
+
+const result = numbers.slice(1, 3);
+console.log(result);
+
+const fruits = [
+    "Apple",
+    "Banana",
+    "Orange",
+    "Mango"
+];
+
+const result2 = fruits.slice (2);
+console.log(result2);
+
+const colors = [
+    "Red",
+    "Green",
+    "Blue",
+    "Yellow"
+];
+
+const result3 = colors.slice(0);
+console.log(result3);
+const result4 = colors.slice(0, 3);
+console.log(result4);
+
+const names = [
+    "Alex",
+    "John",
+    "Anna",
+    "Mike",
+    "Ben"
+];
+
+const slicedNames = names.slice(1, 4);
+console.log(slicedNames);
