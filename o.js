@@ -123,3 +123,14 @@ console.log(info.age);
 console.log(info.favoriteColor);
 console.log("-----");
 }); */
+
+function reversedWord(word) {
+        let reversed = "";
+
+        for (let i = word.length - 1; i >= 0; i--){
+            reversed += word[i];
+        }
+        return reversed;
+    }
+    console.log(reversedWord(tasha[0].name));
+    console.log(reversedWord(tasha[1].name));
