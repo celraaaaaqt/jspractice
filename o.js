@@ -134,3 +134,4 @@ function reversedWord(word) {
     }
     console.log(reversedWord(tasha[0].name));
     console.log(reversedWord(tasha[1].name));
+    console.log(reversedWord(tasha[2].name));
