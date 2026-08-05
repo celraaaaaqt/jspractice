@@ -88,14 +88,14 @@ students.forEach(student => {
 });
 
 const tasha = [
-    { name: "Tasha", age: 20, favoriteColor: "Pink" },
+    { name: "Natasha", age: 20, favoriteColor: "Pink" },
     { name: "Jane", age: 20, favoriteColor: "White" },
     { name: "Discallar", age: 20, favoriteColor: "Black" }
 ]
 
-tasha.forEach(tasha (info => {
+tasha.forEach(info => { 
     console.log(info.name);
-
-}));
+    console.log(info.age);
+});
     
 
