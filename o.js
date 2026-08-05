@@ -99,5 +99,9 @@ tasha.forEach(info => {
     console.log(info.favoriteColor);
     console.log("-----");
 });
-    
-
+    const string = tasha.map(info => info.name);
+const string2 = tasha.map(info => info.age);
+const string3 = tasha.map(info => info.favoriteColor);
+console.log(string);
+console.log(string2);
+console.log(string3);
