@@ -96,7 +96,8 @@ const tasha = [
 tasha.forEach(info => { 
     console.log(info.name);
     console.log(info.age);
-    console.log("-----")
+    console.log(info.favoriteColor);
+    console.log("-----");
 });
     
 
