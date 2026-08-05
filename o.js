@@ -109,3 +109,10 @@ console.log(string3); */
 const slicedTasha = tasha.slice(1, 3);
 console.log(slicedTasha);
 
+if (slicedTasha.length > 0) {
+    console.log("The sliced array is not empty.");
+}
+
+if (slicedTasha.some(student => student.name === "Jane" && student.age === 20 && student.favoriteColor === "White")) {
+    console.log("Jane is in the sliced array.");
+}
