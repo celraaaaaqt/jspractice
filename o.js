@@ -106,7 +106,7 @@ console.log(string);
 console.log(string2);
 console.log(string3); */
 
-const slicedTasha = tasha.slice(1, 3);
+/* const slicedTasha = tasha.slice(1, 3);
 console.log(slicedTasha);
 
 if (slicedTasha.length > 0) {
@@ -115,4 +115,11 @@ if (slicedTasha.length > 0) {
 
 if (slicedTasha.some(student => student.name === "Jane" && student.age === 20 && student.favoriteColor === "White")) {
     console.log("Jane is in the sliced array.");
-}
+} */
+
+    tasha.forEach(info => {
+console.log(info.name);
+console.log(info.age);
+console.log(info.favoriteColor);
+console.log("-----");
+});
