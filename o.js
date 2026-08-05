@@ -87,6 +87,15 @@ students.forEach(student => {
     console.log("-----");
 });
 
+const tasha = [
+    { name: "Tasha", age: 20, favoriteColor: "Pink" },
+    { name: "Jane", age: 20, favoriteColor: "White" },
+    { name: "Discallar", age: 20, favoriteColor: "Black" }
+]
 
+tasha.forEach(tasha (info => {
+    console.log(info.name);
+
+}));
     
 
