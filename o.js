@@ -117,9 +117,9 @@ if (slicedTasha.some(student => student.name === "Jane" && student.age === 20 &&
     console.log("Jane is in the sliced array.");
 } */
 
-    tasha.forEach(info => {
+    /* tasha.forEach(info => {
 console.log(info.name);
 console.log(info.age);
 console.log(info.favoriteColor);
 console.log("-----");
-});
+}); */
