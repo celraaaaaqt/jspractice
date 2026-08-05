@@ -91,9 +91,9 @@ const tasha = [
     { name: "Natasha", age: 20, favoriteColor: "Pink" },
     { name: "Jane", age: 20, favoriteColor: "White" },
     { name: "Discallar", age: 20, favoriteColor: "Black" }
-]
+];
 
-tasha.forEach(info => { 
+/* tasha.forEach(info => { 
     console.log(info.name);
     console.log(info.age);
     console.log(info.favoriteColor);
@@ -104,4 +104,8 @@ const string2 = tasha.map(info => info.age);
 const string3 = tasha.map(info => info.favoriteColor);
 console.log(string);
 console.log(string2);
-console.log(string3);
+console.log(string3); */
+
+const slicedTasha = tasha.slice(1, 3);
+console.log(slicedTasha);
+
