@@ -32,3 +32,24 @@ titlee.style.color = "purple";
 titlee.style.fontSize = "45px";
 titlee.style.textAlign = "center";
 titlee.style.backgroundColor = "lightgray";
+
+// ? HTML Attributes 
+// ? src, href, type. link, rel
+
+// todo ATTRIBUTES EXAMPLES
+
+const imageProfile = document.querySelector("#profile");
+imageProfile.setAttribute("src", "assetsDom/new.png");
+
+const linkChanger = document.querySelector("#klink");
+linkChanger.setAttribute("href", "https://github.com/celraaaaaqt");
+
+const inputPlaceholder = document.querySelector("#username");
+inputPlaceholder.placeholder = "Enter your name";
+
+
+
+
+
+
+
