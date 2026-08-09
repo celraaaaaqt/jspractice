@@ -47,6 +47,36 @@ linkChanger.setAttribute("href", "https://github.com/celraaaaaqt");
 const inputPlaceholder = document.querySelector("#username");
 inputPlaceholder.placeholder = "Enter your name";
 
+// ? DOM Events 
+// ?An event is something that happens on the webpage:
+
+/* 🖱️ User clicks a button
+⌨️ User types
+🖱️ Mouse moves
+📋 A form is submitted
+etc.
+JavaScript can listen for these events. */
+
+// todo DOM events EXERCISES
+const button = document.querySelector("#button");
+
+button.addEventListener("click", () => {
+    alert("Button Clicked");
+});
+
+const crushName = document.querySelector("#crushName");
+const crushButton = document.querySelector("#crushButton");
+
+crushButton.addEventListener("click", () => {
+crushName.textContent = "I hope I could watch your volleyball game right now:(";
+});
+
+
+
+
+
+
+
 
 
 
