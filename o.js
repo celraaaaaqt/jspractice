@@ -75,7 +75,7 @@ students.map(student => student.name);
 
 students.reduce((total, student) => total + student.age, 0);
  */
-const students = [
+/* const students = [
     { name: "Alex", age: 20 },
     { name: "Anna", age: 19 },
     { name: "John", age: 21 }
@@ -91,7 +91,7 @@ const tasha = [
     { name: "Natasha", age: 20, favoriteColor: "Pink" },
     { name: "Jane", age: 20, favoriteColor: "White" },
     { name: "Discallar", age: 20, favoriteColor: "Black" }
-];
+]; */
 
 /* tasha.forEach(info => { 
     console.log(info.name);
@@ -124,14 +124,45 @@ console.log(info.favoriteColor);
 console.log("-----");
 }); */
 
-function reversedWord(word) {
+/* function reversedWord(word) {
         let reversed = "";
 
         for (let i = word.length - 1; i >= 0; i--){
             reversed += word[i];
         }
         return reversed;
-    }
+
+}
     console.log(reversedWord(tasha[0].name));
     console.log(reversedWord(tasha[1].name));
-    console.log(reversedWord(tasha[2].name));
+    console.log(reversedWord(tasha[2].name)); */
+
+   /*  const students = [
+    { name: "Alex", age: 20 },
+    { name: "Anna", age: 19 },
+    { name: "John", age: 21 },
+    { name: "Mike", age: 18 }
+];
+
+students.forEach(student => {
+console.log(`${student.name} is ${student.age} years old`);
+});
+
+const newArrayStudent = students.map(student => student.name);
+console.log(newArrayStudent);
+
+const filterStudent = students.filter(student => student.age >= 20);
+console.log(filterStudent);
+
+const findStudent = students.find(student => student.name === 'Mike');
+console.log(findStudent);
+
+const totalAge = students.reduce((a, b) => {
+return a += b.age
+}, 0);
+
+console.log(totalAge); */
+
+
+
+
