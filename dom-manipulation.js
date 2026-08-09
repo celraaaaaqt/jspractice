@@ -71,6 +71,15 @@ crushButton.addEventListener("click", () => {
 crushName.textContent = "I hope I could watch your volleyball game right now:(";
 });
 
+const counter = document.querySelector("#counter");
+const increase = document.querySelector("#increase");
+
+let count = 0;
+increase.addEventListener("click", () => {  
+    count++;
+    counter.textContent = count;
+});
+
 
 
 
