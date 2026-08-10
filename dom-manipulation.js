@@ -81,9 +81,40 @@ increase.addEventListener("click", () => {
     counter.textContent = count;
 });
 
+decrease.addEventListener("click", () => {
+    count--;
+    counter.textContent = count;
+});
 
+const nameInput = document.querySelector("#nameInput");
+const messagee = document.querySelector("#messagee");
 
+nameInput.addEventListener("input", () => {
+messagee.textContent = nameInput.value;
+});
 
+const nameInputt = document.querySelector("#nameInputt");
+const greetButton = document.querySelector("#greetButton");
+const greeting = document.querySelector("#greeting");
+
+greetButton.addEventListener("click", () => {
+greeting.textContent = `Hello, ${nameInputt.value}`;
+
+});
+
+const usernamee= document.querySelector("#usernamee");
+const submitt = document.querySelector("#submitt");
+const resultt = document.querySelector("#resultt");
+
+submitt.addEventListener("click", () => {
+
+if (usernamee.value === ""){
+    resultt.textContent = "Please enter your name."
+} else {
+    resultt.textContent = `Hello, ${usernamee.value}`;
+}
+
+});
 
 
 
