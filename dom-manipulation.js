@@ -1,3 +1,5 @@
+/*
+
 // ? DOM (Document Object Model) MANIPULATION 
 // ? the browser turns the HTML into a structure JavaScript can interact with.
 
@@ -56,7 +58,7 @@ inputPlaceholder.placeholder = "Enter your name";
 📋 A form is submitted
 etc.
 JavaScript can listen for these events. */
-
+/*
 // todo DOM events EXERCISES
 const button = document.querySelector("#button");
 
@@ -115,9 +117,20 @@ if (usernamee.value === ""){
 }
 
 });
+*/
 
+const numberInputt= document.querySelector("#numberInputt");
+const addInputt = document.querySelector("#addInputt");
+const totall = document.querySelector("#totall");
 
+let total = 0;
 
+addInputt.addEventListener("click", () => {
+let add = Number(numberInputt.value);
+
+total += add;
+totall.textContent = total;
+});
 
 
 
