@@ -8,7 +8,10 @@ const decrease = document.querySelector("#decrease");
 firstButton.addEventListener("click", () => {
 firstHeader.classList.add("firstHeader");
 output.classList.add("highlight");
-output.textContent = "hi!";
 });
 
-
+let count = 0;
+increase.addEventListener("click", () => {
+count++;
+output.textContent = count;
+});
