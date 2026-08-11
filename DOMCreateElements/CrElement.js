@@ -20,3 +20,4 @@ decrease.addEventListener("click", () => {
 increaseCount--;
 output.textContent = increaseCount;
 });
+
