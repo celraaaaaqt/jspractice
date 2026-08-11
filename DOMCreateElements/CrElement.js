@@ -10,8 +10,13 @@ firstHeader.classList.add("firstHeader");
 output.classList.add("highlight");
 });
 
-let count = 0;
+let increaseCount = 0;
 increase.addEventListener("click", () => {
-count++;
-output.textContent = count;
+increaseCount++;
+output.textContent = increaseCount;
+});
+
+decrease.addEventListener("click", () => {
+increaseCount--;
+output.textContent = increaseCount;
 });

@@ -1,6 +1,8 @@
 .highlight {
     background-color: blue;
     color: white;
+    font-size: 2em; 
+    font-weight: bold;
 }
 
 .firstHeader {
@@ -9,5 +11,4 @@
     align-items: center;
     background-color: red;
     color: white;
-    
 }
