@@ -3,7 +3,8 @@ background-color: black;
 color: white;
 border: none;
 border-radius: 20%;
-height: 100px;
+height: 60px;
+width: 60px;
 }
 
 .highlight {
