@@ -1,10 +1,16 @@
-button {
+#increase, #decrease {
 background-color: black;
 color: white;
 border: none;
 border-radius: 20%;
 height: 60px;
 width: 60px;
+
+}
+
+#increase, #decrease:hover {
+    background-color: aqua;
+    color: darkblue;
 }
 
 .highlight {
