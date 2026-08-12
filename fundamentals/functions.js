@@ -113,3 +113,22 @@ console.log(isPalindrome("arcel pogi")); */
 }
 console.log(factorial(5));
  */
+function reversedWord(word) {
+        let reversed = "";
+
+        for (let i = word.length - 1; i >= 0; i--){
+            reversed += word[i];
+        }
+        return reversed;
+    }
+    console.log(reversedWord("hello"));
+
+    function factorial(num){
+    let result = 1;
+  
+    for (let i = 1; i <= num; i++){
+         result = result * i;   
+    }
+    return result;
+}
+console.log(factorial(5));
