@@ -38,6 +38,6 @@ font-weight: bold;
     align-items: center;
     background-color: red;
     color: #ffffff;
-    border-radius: 20%;
-    
+    border-radius: 20% 20% 20%;
+    padding: 5%;
 }
