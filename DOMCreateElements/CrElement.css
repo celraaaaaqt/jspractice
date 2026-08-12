@@ -19,6 +19,7 @@ font-weight: bold;
     color: darkblue;
 }
 
+
 .highlight {
     display: flex;
     justify-content: center;
@@ -27,6 +28,7 @@ font-weight: bold;
     color: white;
     font-size: 3em; 
     font-weight: bold;
+   
 }
 
 .firstHeader {
@@ -35,4 +37,6 @@ font-weight: bold;
     align-items: center;
     background-color: red;
     color: #ffffff;
+     width: 50%;
+    
 }
