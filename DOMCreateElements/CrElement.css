@@ -42,3 +42,7 @@ font-weight: bold;
     border-radius: 20% 20% 20%;
     padding: 5%;
 }
+
+h2 {
+    text-align: center ;
+}
