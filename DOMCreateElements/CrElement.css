@@ -1,6 +1,7 @@
 body {
-    background-color:rgb(59, 43, 43)
-
+    background-color:rgb(59, 43, 43);
+    padding: 0;
+    margin: 0;
 }
 
 #increase, #decrease {
