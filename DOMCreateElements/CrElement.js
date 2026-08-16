@@ -79,21 +79,29 @@ addButton.addEventListener("click", () => {
      if(studentInput.value === "") {
         return;
     }
-    
+
     paragraph.textContent = `Student: ${studentInput.value}`
+    paragraph.classList.add("student");
     removeButton.textContent = "[Remove]";
 
     paragraph.append(removeButton);
-
     document.body.append(paragraph);
+    
     studentInput.value = "";
+
     removeButton.addEventListener("click", () => {
         paragraph.remove();
     });
 });
 
 clearButton.addEventListener("click", () => {
+    const students = document.querySelectorAll(".student");
     studentInput.value = "";
+    
+    students.forEach((student) => {
+    student.remove();
+    });
+
 }); 
 
 
