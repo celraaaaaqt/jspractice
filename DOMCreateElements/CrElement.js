@@ -76,7 +76,6 @@ addButton.addEventListener("click", () => {
     const removeButton = document.createElement("button");
 
     paragraph.textContent = `Student: ${studentInput.value}`
-    paragraph.style.color = "white";
     removeButton.textContent = "[Remove]";
 
     paragraph.append(removeButton);
