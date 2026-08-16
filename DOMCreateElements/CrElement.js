@@ -1,23 +1,57 @@
-const firstHeader = document.querySelector("#firstHeader");
-const firstButton = document.querySelector("#firstButton");
-const output = document.querySelector("#output");
+// ? Create element examples:
 
-const increase = document.querySelector("#increase");
-const decrease = document.querySelector("#decrease");
+/* const paragraph = document.createElement("p");
+const addButton = document.querySelector("#addButton");
 
-firstButton.addEventListener("click", () => {
-firstHeader.classList.add("firstHeader");
-output.classList.add("highlight");
-});
+paragraph.textContent = "Hello from Javascript!";
+document.body.append(paragraph);
 
-let increaseCount = 0;
-increase.addEventListener("click", () => {
-increaseCount++;
-output.textContent = increaseCount;
-});
+addButton.addEventListener("click", () => {
+const paragraph2 = document.createElement("p");
 
-decrease.addEventListener("click", () => {
-increaseCount--;
-output.textContent = increaseCount;
-});
+paragraph2.textContent = "New Message";
+
+document.body.append(paragraph2);
+}); */
+
+// todo create elements exercises:
+/* const addButton = document.querySelector("#addButton");
+
+addButton.addEventListener("click", () => {
+    const paragraph = document.createElement("p");
+
+    paragraph.textContent = "I was created with JavaScript";
+
+    document.body.append(paragraph);
+}); */
+
+/* const addButton = document.querySelector("#addButton");
+
+addButton.addEventListener("click", () => {
+    const paragraph = document.createElement("p");
+
+    paragraph.textContent = "Student Added!";
+    paragraph.classList.add("student");
+    document.body.append(paragraph);
+}); */
+
+// ? remove method
+/* const message = document.querySelector("#message");
+message.remove(); */
+
+/* const addButton = document.querySelector("#addButton");
+
+addButton.addEventListener("click", () => {
+    const paragraph = document.createElement("p");
+
+    paragraph.textContent = "Student Added!";
+    paragraph.classList.add("student");
+    document.body.append(paragraph);
+    paragraph.remove();
+    
+}); */
+
+
+
+
 
