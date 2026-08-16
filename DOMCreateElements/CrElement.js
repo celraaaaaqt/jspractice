@@ -68,7 +68,7 @@ addButton.addEventListener("click", () => {
     });
 }); */
 
-const studentInput = document.querySelector("#studentInput");
+/* const studentInput = document.querySelector("#studentInput");
 const addButton = document.querySelector("#addButton");
 const clearButton = document.querySelector("#clearButton");
 
@@ -102,6 +102,6 @@ clearButton.addEventListener("click", () => {
     student.remove();
     });
 
-}); 
+});  */
 
 
