@@ -79,7 +79,6 @@ addButton.addEventListener("click", () => {
     removeButton.textContent = "[Remove]";
 
     paragraph.append(removeButton);
-    paragraph.classList.add("student");
     document.body.append(paragraph);
 
     removeButton.addEventListener("click", () => {
