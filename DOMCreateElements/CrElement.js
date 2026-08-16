@@ -75,12 +75,18 @@ addButton.addEventListener("click", () => {
     const paragraph = document.createElement("p");
     const removeButton = document.createElement("button");
 
+
     paragraph.textContent = `Student: ${studentInput.value}`
     removeButton.textContent = "[Remove]";
 
     paragraph.append(removeButton);
-    document.body.append(paragraph);
+    
 
+    if(studentInput.value === "") {
+        return;
+    }
+    
+    document.body.append(paragraph);
     removeButton.addEventListener("click", () => {
         paragraph.remove();
     });
