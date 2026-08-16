@@ -51,7 +51,39 @@ addButton.addEventListener("click", () => {
     
 }); */
 
+/* const addButton = document.querySelector("#addButton");
 
+addButton.addEventListener("click", () => {
+    const paragraph = document.createElement("p");
+    const removeButton = document.createElement("button");
 
+    paragraph.textContent = "Student Added!";
+    removeButton.textContent = "[Remove]";
 
+    document.body.append(paragraph);
+    paragraph.append(removeButton);
+
+    removeButton.addEventListener("click", () => {
+        paragraph.remove();
+    });
+}); */
+
+const studentInput = document.querySelector("#studentInput");
+const addButton = document.querySelector("#addButton");
+
+addButton.addEventListener("click", () => {
+    const paragraph = document.createElement("p");
+    const removeButton = document.createElement("button");
+
+    paragraph.textContent = studentInput.value;
+    removeButton.textContent = "[Remove]";
+
+    paragraph.append(removeButton);
+    paragraph.classList.add("student");
+    document.body.append(paragraph);
+
+    removeButton.addEventListener("click", () => {
+        paragraph.remove();
+    });
+});
 
