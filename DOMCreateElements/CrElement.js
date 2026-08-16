@@ -70,25 +70,30 @@ addButton.addEventListener("click", () => {
 
 const studentInput = document.querySelector("#studentInput");
 const addButton = document.querySelector("#addButton");
+const clearButton = document.querySelector("#clearButton");
 
 addButton.addEventListener("click", () => {
     const paragraph = document.createElement("p");
     const removeButton = document.createElement("button");
 
-
+     if(studentInput.value === "") {
+        return;
+    }
+    
     paragraph.textContent = `Student: ${studentInput.value}`
     removeButton.textContent = "[Remove]";
 
     paragraph.append(removeButton);
-    
 
-    if(studentInput.value === "") {
-        return;
-    }
-    
     document.body.append(paragraph);
+    studentInput.value = "";
     removeButton.addEventListener("click", () => {
         paragraph.remove();
     });
 });
+
+clearButton.addEventListener("click", () => {
+    studentInput.value = "";
+}); 
+
 
